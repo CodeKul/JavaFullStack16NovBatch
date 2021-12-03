@@ -18,9 +18,9 @@ public class Person {
     Person(int id){
         this.id = id;
     }
-    Person(int i,String nm){
-        id = i;
-        name = nm;
+    Person(int id,String name){
+        this.id = id;
+        this.name = name;
     }
     public static void main(String[] args) {
         System.out.println("B4 obj creation");
