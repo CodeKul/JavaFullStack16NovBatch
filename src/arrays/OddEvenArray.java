@@ -3,8 +3,8 @@ package arrays;
 public class OddEvenArray {
     public static void main(String[] args) {
         int[] no = {1,2,3,4,5,6,7,8,9,10};
-        int[] even = new int[no.length]; //  pending - remove extras zeros from output
-        int[] odd = new int[no.length];  //  pending - remove extras zeros from output
+        int[] even = new int[no.length/2]; //  pending - remove extras zeros from output
+        int[] odd = new int[no.length/2];  //  pending - remove extras zeros from output
         int j = 0;
         int k = 0;
 
