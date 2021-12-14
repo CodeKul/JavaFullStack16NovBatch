@@ -24,12 +24,12 @@ public class Emp {
 
     public static void main(String[] args) {
         Emp emp = new Emp();
-//        Emp emp1 = new Emp(1,"emp1");
-//        Emp emp2 = new Emp(2,"emp2");
-//        Emp emp3 = new Emp(3,"emp3");
-//        Emp.cname = "FB";
-//        emp1.show();
-//        emp2.show();
-//        emp3.show();
+        Emp emp1 = new Emp(1,"emp1");
+        Emp emp2 = new Emp(2,"emp2");
+        Emp emp3 = new Emp(3,"emp3");
+        Emp.cname = "FB";
+        emp1.show();
+        emp2.show();
+        emp3.show();
     }
 }
