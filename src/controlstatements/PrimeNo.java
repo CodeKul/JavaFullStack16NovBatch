@@ -1,6 +1,7 @@
 package controlstatements;
 
 public class PrimeNo {
+
 }
 /**
 
