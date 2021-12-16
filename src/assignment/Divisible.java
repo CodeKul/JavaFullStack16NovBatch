@@ -1,4 +1,4 @@
-package controlstatements;
+package assignment;
 
 public class Divisible {
     public static void main(String[] args) {
