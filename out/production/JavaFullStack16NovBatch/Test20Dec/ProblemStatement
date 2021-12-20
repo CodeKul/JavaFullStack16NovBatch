@@ -1,0 +1,6 @@
+WAP to create Account class
+1. Data members :  accountNo,accountType,balance,username,bank name
+2. Methods : void DisplayData()
+             void withdrawMoney(double amount)
+             void depositMoney(double amount)
+

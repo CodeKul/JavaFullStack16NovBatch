@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(šþ°”
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(æÖ«ˆ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(«‹Îõ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(ÖòÖîþÿÿÿÿ
++
+java:S1700"Rename field "a"(Þ‹®øÿÿÿÿ
