@@ -1,8 +1,8 @@
 WAP to create Account class
-1. Data members :  accountNo,accountType,balance,username,bankName
+1. Data members :  accountNo(long),accountType(String),balance(double),username(String),bankName(String)
 2. Methods :
              void addAccount(); // no user input required
-             void DisplayData(); // Display Data in proper manner
+             void displayData(); // Display Data in proper manner
              void withdrawMoney(double amount); // balance must not be negative & amount requested
                                                     for withdrawal
                                                     is less than or equal to balance,Display balance
@@ -16,7 +16,7 @@ WAP to create Account class
     4. Exit
     show "Wrong Choice" if user entered different options
 4. It's mandatory for you to call addAccount() before do-while loop
-5. all data members of class are private and methods are public,use static keyword
+5. all data members of class are private and methods are public,use static keyword for any of the above data members
 6. Use addAccount() to entered details
 
 
