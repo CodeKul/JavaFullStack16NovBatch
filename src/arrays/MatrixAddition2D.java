@@ -28,9 +28,11 @@ public class MatrixAddition2D {
             }
         }
 
-        for (int i= 0 ; i < row ; i++ )
-            for ( int j= 0 ; j < column ;j++ )
-                res[i][j] = m1[i][j] + m2[i][j] ;
+        for (int i= 0 ; i < row ; i++ ) {
+            for (int j = 0; j < column; j++) {
+                res[i][j] = m1[i][j] + m2[i][j];
+            }
+        }
 
         System.out.println("Sum of matrices:-");
 
