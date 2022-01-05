@@ -1,6 +1,5 @@
 package interfacedemo;
 
-import java.io.FileOutputStream;
 import java.io.Serializable;
 
 public class TestMarker implements Serializable {
