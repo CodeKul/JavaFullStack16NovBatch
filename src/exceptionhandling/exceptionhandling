@@ -1,0 +1,25 @@
+Exception:  an unwanted event/unexpected event which occurs during the execution of a program
+  i.e @ run time
+
+Throwable
+     Exception(checked exception/compile time) -
+                  IOException
+                    -FileNotFoundException
+                  SQLException
+                  ClassNotFoundException
+                  RuntimeException (unchecked exception)-
+                                  - ArithmeticException
+                                  - NullPointerException
+                                  - NumberFormatException
+                                  - SecurityException
+                                  - IndexOutOfBoundException-
+                                             -ArrayIndexOutOfBoundException
+                                             -StringIndexOutOfBoundException
+     Error-
+            VirtualError
+            OutOfMemoryError
+            StackOverFlowError
+            UnknownError
+
+
+
