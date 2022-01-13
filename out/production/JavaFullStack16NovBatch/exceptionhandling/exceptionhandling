@@ -23,3 +23,5 @@ Throwable
 
 
 
+
+throws - used to declare which exceptions can be thrown from a method
