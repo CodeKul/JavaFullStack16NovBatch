@@ -1,0 +1,26 @@
+String :
+- Non-primitive
+- set of character
+- seq of char values
+- final
+- implements Serializable, Comparable<String>, CharSequence
+- Immutable(can not be changed),unchangeable,unmodifiable
+
+3 ways create string
+1. by using char array
+   char[] ch = {'J','A','V','A'};
+   String s = new String(ch);
+
+2. String literal
+    String str = "Codekul";
+
+3. New Keyword
+    String str = new String("Codekul");
+
+
+**String Pool Const/String Literal Pool
+- separate place in heap memory
+- values of strings gets stored
+- JVM checks SPC first,& if the string is already exists in the SPC,
+  then it refer to same string. If string does not exist then new
+  string instance is created

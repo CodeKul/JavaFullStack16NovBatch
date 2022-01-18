@@ -22,5 +22,22 @@ Throwable
             UnknownError
 
 
+Homework:
+1. Diff between throw & throws
+2.
+interface Bank{
+    double withdraw(amount);
+    double deposit(amount);
+}
+class SBI implement Bank{
+    balance;
+    accountNo;
+}
+class InsufficientFundsException extends Exception{
+
+}
+
+100 400 - short of rs 300
+
 
 
