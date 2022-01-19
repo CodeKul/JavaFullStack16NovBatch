@@ -23,7 +23,4 @@ public class StringLiteral {
             System.out.println("Different object");
         }
     }
-
-
-
 }

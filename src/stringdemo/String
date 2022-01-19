@@ -5,6 +5,8 @@ String :
 - final
 - implements Serializable, Comparable<String>, CharSequence
 - Immutable(can not be changed),unchangeable,unmodifiable
+- StringBuffer
+- StringBuilder
 
 3 ways create string
 1. by using char array
