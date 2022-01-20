@@ -2,8 +2,8 @@ package stringdemo;
 
 /**
  * String can be compared in 3 ways
- * 1. == operator - compares references
- * 2. .equals - compares the content of the strings & case sensitivity,does not ignore the case
+ * 1. == operator - compares references(memory address)
+ * 2. equals - compares the content of the strings & case sensitivity,does not ignore the case
  * 3. compareTo - compares the values lexicographically and returns an integer
  *                 0 -> same
  *                 1 or positive  -> first string is greater than second string
@@ -44,5 +44,6 @@ public class StringComparison {
  * 9. indexOf()
  * 10. startsWith()
  * 11. endsWith()
+ *
  */
 

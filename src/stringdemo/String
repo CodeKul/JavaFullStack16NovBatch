@@ -1,12 +1,15 @@
-String :
+To create a string there are 3 classes in Java
+1. String
+2. String Buffer
+3. String Builder
+
+1) String :
 - Non-primitive
 - set of character
 - seq of char values
 - final
 - implements Serializable, Comparable<String>, CharSequence
 - Immutable(can not be changed),unchangeable,unmodifiable
-- StringBuffer
-- StringBuilder
 
 3 ways create string
 1. by using char array
@@ -26,3 +29,17 @@ String :
 - JVM checks SPC first,& if the string is already exists in the SPC,
   then it refer to same string. If string does not exist then new
   string instance is created
+
+
+2) String Buffer
+	- Mutable class (modify)
+	- thread safe (that's why multiple threads cannot access )
+	- all methods of SB are synchronised
+
+
+Difference between String & StringBuffer
+	String                      String Buffer
+1. Immutable                    1. Mutable
+2. used String Constant         2. Heap Memory
+	pool
+3. slow                         3. fast
