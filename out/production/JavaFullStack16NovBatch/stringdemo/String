@@ -10,6 +10,7 @@ To create a string there are 3 classes in Java
 - final
 - implements Serializable, Comparable<String>, CharSequence
 - Immutable(can not be changed),unchangeable,unmodifiable
+- thread-safe
 
 3 ways create string
 1. by using char array
@@ -35,6 +36,7 @@ To create a string there are 3 classes in Java
 	- Mutable class (modify)
 	- thread safe (that's why multiple threads cannot access )
 	- all methods of SB are synchronised
+	- slow
 
 
 Difference between String & StringBuffer
@@ -43,3 +45,24 @@ Difference between String & StringBuffer
 2. used String Constant         2. Heap Memory
 	pool
 3. slow                         3. fast
+
+3) String Builder
+	- Mutable
+	- methods are non-synchronised
+	- available from JDK 1.5 version
+	- fast
+
+Difference between StringBuilder & StringBuffer
+	StringBuffer        StringBuilder
+1. synchronised         1. non-synchronised
+2. thread-safe          2. not thread-safe
+3. less efficient       3. more efficient
+4. introduced in 1.0    4. introduced in 1.5
+
+Can we create custom immutable class?
+Yes.
+Steps:
+1. make class as a final
+2. all data members must be final & private
+3. parameterised constructor
+4. getter method

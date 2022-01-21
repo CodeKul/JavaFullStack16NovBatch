@@ -44,6 +44,7 @@ public class StringComparison {
  * 9. indexOf()
  * 10. startsWith()
  * 11. endsWith()
+ * 12. trim()
  *
  */
 
