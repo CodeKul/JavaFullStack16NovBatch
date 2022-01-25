@@ -1,0 +1,56 @@
+MultiTasking
+- performing multiple task @ single/same time
+- increases performance of CPU and multitasking achieved by
+ 1. Process based (MultiProcessing)
+ 2. Thread based (Multithreading)
+
+ MultiProcessing
+ - when one system is connected to multiple process in order to complete the task
+ - heavy weight
+
+ MultiThreading
+ - executing multiple threads or program or small task or sub-process @ same time
+   eg. Games, software,animation
+
+Thread
+ - lightweight process
+ - smalled unit of process
+ - independent(if exception/error occur at one thread it does not affect the others)
+ - shares memory
+ - one process can have multiple threads
+ - at least one process is required for each thread
+ - @ a time only one thread executed
+ - by default in every java application we have at least one thread - main thread
+
+ Difference between thread & process
+
+
+ Life Cycle of Thread(States/Stages)
+ 1. Born(New)
+    - when a thread is created but not yet started,it is new/born state
+    eg. MyThread t1 = new MyThread();
+
+ 2. Runnable
+    - when we called the start() method then it's moved from New to Runnable state
+    - waiting for resource allocation from the system
+    - Thread Scheduler is part of JVM, allocated a fixed amount of time to each thread
+    eg. t1.start()
+
+ 3. Running
+    - when the thread gets the CPU, it moves from Runnable to Running state.
+
+ 4. Blocked/Waiting
+    - whenever a thread is inactive for particular of time
+
+ 5. Dead/Stop/Terminate
+    - when a thread has completed/finished its task
+
+Threads can be created by using two mechanisms:
+1. by extending the Thread class
+2. by implementing Runnable interface
+
+Thread class:
+- package java.lang;
+- implements Runnable
+- Step: a) extends with Thread class
+

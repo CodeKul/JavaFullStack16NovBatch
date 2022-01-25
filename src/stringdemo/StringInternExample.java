@@ -7,6 +7,8 @@ public class StringInternExample {
 
         System.out.println(s1==s2);//false
         s2 = s2.intern();
-        System.out.println(s1 == s2);//
+        System.out.println(s1 == s2);//true
+
+
     }
 }

@@ -69,10 +69,10 @@ Steps:
 
 
 Homework
-Person - name
-Doctor - first,middle,last(split),mobileno-10(exception),email-id,
+//Person - name
+Doctor - name,first,middle,last(split),mobileno-10(exception),email-id,
 id-String(D-001)
-Patient - (P-101)
+//Patient - (P-101)
 Address - flat no-Integer(Exception),city,state,country
 -trim()
 difference between isEmpty() & isBlank()
