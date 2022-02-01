@@ -53,4 +53,29 @@ Thread class:
 - package java.lang;
 - implements Runnable
 - Step: a) extends with Thread class
+		b) override run() method
+		c) created an object of class
+		d) invoked start() method
+
+
+Runnable Interface
+- package java.lang;
+- Step: a) implements with Runnable interface
+		b) override run() method
+		c) created an object of class
+		d) created an object of thread class
+		e) invoked start() method
+
+Thread Scheduler
+- a part of JVM
+- decides which thread to execute
+
+
+Notes:
+1. thread can never be started again,after starting a thread, if we do this we will get
+	IllegalThreadStateException
+
+2. if we extend thread class,our class cannot extend any other class because Java doesn't
+    support multiple inheritance
+    So, we implement the Runnable interface
 
