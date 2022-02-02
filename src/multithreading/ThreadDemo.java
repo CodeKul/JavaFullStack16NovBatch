@@ -13,6 +13,6 @@ public class ThreadDemo extends Thread {
        t2.start();
        t3.start();
        t4.start();
-      // t1.start();
+       t1.start();
     }
 }

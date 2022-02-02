@@ -79,3 +79,16 @@ Notes:
     support multiple inheritance
     So, we implement the Runnable interface
 
+
+class T1 impl Runnable{
+	for loop
+}
+
+
+class T2 impl Runnable{
+	for loop
+}
+
+class Impl{
+
+}
