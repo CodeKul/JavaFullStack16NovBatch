@@ -14,7 +14,6 @@ public class ThreadPriorityDemo {
         priority2.start();
         System.out.println("Current "+Thread.currentThread().getPriority());
     }
-
 }
 
 class ThreadPriority1 extends Thread{

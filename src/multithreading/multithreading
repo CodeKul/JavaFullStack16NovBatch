@@ -70,6 +70,15 @@ Thread Scheduler
 - a part of JVM
 - decides which thread to execute
 
+Daemon Thread:
+- it is low priority
+- running in background for other threads
+- service provider
+- depends on user/another
+- IllegalThreadStateException occurs when we set thread as daemon
+ after the start method
+
+eg. Garbage Collector,Spell Checker
 
 Notes:
 1. thread can never be started again,after starting a thread, if we do this we will get
@@ -79,16 +88,17 @@ Notes:
     support multiple inheritance
     So, we implement the Runnable interface
 
+HomeWork:
 
-class T1 impl Runnable{
+1.class T1 impl Runnable{
 	for loop
 }
-
-
 class T2 impl Runnable{
 	for loop
 }
-
 class Impl{
 
 }
+2. WAP to demonstrate yield method
+3. Difference between sleep(),yield(),join()
+
