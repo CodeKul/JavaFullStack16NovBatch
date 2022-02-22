@@ -80,6 +80,38 @@ Daemon Thread:
 
 eg. Garbage Collector,Spell Checker
 
+Methods:
+1. sleep()
+2. yield()
+	- which stops the current executing thread & give a chance
+	to other threads for execution
+3. join()
+	- if a thread wants to wait for another thread to complete
+	its task
+4. interrupt()
+	- it interrupts the given thread
+	- when thread is in waiting & sleep stage then interrupt method will
+	work
+	- InterruptedException will occur when we call interrupted method while
+	thread is in sleep(),wait()
+
+Synchronisation
+- capability to control access of multiple threads to any shared resource
+- 2 types
+1. Process
+2. Thread Synchronisation
+	1. Mutual Exclusion/Mutex
+		- only one thread work @ one time
+		a) synchronised method
+		b) synchronised block
+		c) static synchronisation
+	2. Interthread communication
+		notify(),notifyAll(),wait()
+
+
+Executor
+
+
 Notes:
 1. thread can never be started again,after starting a thread, if we do this we will get
 	IllegalThreadStateException
@@ -101,4 +133,8 @@ class Impl{
 }
 2. WAP to demonstrate yield method
 3. Difference between sleep(),yield(),join()
+4. Api BookTicket
+	- bookTicket() - logic
+	BusTicket extends Thread
+
 
