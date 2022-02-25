@@ -1,0 +1,13 @@
+1. Given the following list of sorted integers:
+0 1 5 8 14 18 44 81 89 99 102
+
+2. And 2 numbers
+10 20
+
+3. Find how many numbers are in between those 2 numbers in the original list,
+including those 2 numbers if present
+eg. in above case the output should be:
+2
+
+
+4. Try to optimize on time complexity

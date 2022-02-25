@@ -1,0 +1,124 @@
+ What will be the output in the below program?
+1.
+public class Main extends Thread
+{
+    public void run ()
+    {
+        for (int i = 0; i <= 50; i++)
+        {
+         System.out.println ("Run: " + i);
+        }
+    }
+    public static void main (String[]args)
+    {
+        Main mt = new Main();
+        mt.run();
+        mt.start();
+        for (int i = 0; i <= 50; i++)
+        {
+         System.out.println ("Main: " + i);
+        }
+    }
+}
+
+2. public class Main extends Thread
+   {
+       public void run ()
+       {
+           for (int i = 0; i <= 5; i++)
+           {
+            System.out.println ("Run: " + i);
+           }
+       }
+       public static void main (String[]args)
+       {
+           Main mt = new Main();
+           mt.start ();
+           mt.run ();
+           for (int i = 0; i <= 5; i++)
+           {
+            System.out.println ("Main: " + i);
+           }
+       }
+   }
+
+ 3.
+ public class Main extends Thread
+ {
+     public void run ()
+     {
+         for (int i = 0; i <= 50; i++)
+         {
+          System.out.println ("Run: " + i);
+         }
+     }
+     public static void main (String[]args)
+     {
+         Main mt = new Main();
+         mt.start ();
+         mt.start ();
+         for (int i = 0; i <= 50; i++)
+         {
+          System.out.println ("Main: " + i);
+         }
+     }
+ }
+
+ 4.  Can we override the Start Method?
+
+ 5. public class MyThread extends Thread
+    {
+        public void run ()
+        {
+            System.out.println ("run");
+        }
+        public void start ()
+        {
+            System.out.println ("start");
+        }
+        public static void main (String args[])
+        {
+            MyThread mt = new MyThread ();
+            mt.start ();
+            System.out.println ("main");
+        }
+    }
+
+ 6. public class MyThread extends Thread
+    {
+      public void run ()
+      {
+        System.out.println ("run");
+      }
+      public void start ()
+      {
+        System.out.println ("start");
+        run ();
+      }
+      public static void main (String args[])
+      {
+        MyThread mt = new MyThread ();
+        mt.start ();
+        System.out.println ("main");
+      }
+    }
+
+ 7. public class MyThread extends Thread
+    {
+      public void run ()
+      {
+        System.out.println ("custom");
+      }
+      public void start ()
+      {
+        System.out.println ("start");
+        run ();
+        super.start ();
+      }
+      public static void main (String args[])
+      {
+        MyThread mt = new MyThread ();
+        mt.start ();
+        System.out.println ("main");
+      }
+    }

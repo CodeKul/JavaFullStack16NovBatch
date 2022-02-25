@@ -1,0 +1,8 @@
+Write shell script for the following task
+1. Change to /disk1/kafka directory
+2. Check if there exists file 'my.pid' is present
+3. Output 'pid file not found' if file is not present
+4. If the file is present, get contents of this file which will be a PID
+5. Check if any process if running with this PID
+6. Output 'kafka is running with $PID' if found
+7. Output 'kafka is not running with $PID' if not found
