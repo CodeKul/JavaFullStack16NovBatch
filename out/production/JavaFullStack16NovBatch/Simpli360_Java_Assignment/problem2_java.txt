@@ -1,0 +1,2 @@
+1. Write program for problem 1 such that every regex runs as its own thread
+2. Total threads created by the program should be the size of regex, and process the list of strings as input.

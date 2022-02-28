@@ -1,0 +1,29 @@
+1. Create a list of 10 strings
+
+The patient should be informed of his therapeutic options.
+It wouldn't be as if the lone astronaut would be completely by himself.
+Now, a writer is entitled to have a Roget on his desk.
+Somebody should let you borrow their book
+From the earliest times until about the 1960s
+whether we may not, nay ought not, to use a neutral pronoun relative
+phone 9280018281
+Notionalplurality
+A starting point would be to give more support
+abc@gmail.com
+
+2. Create a list of 5 regex
+
+.*\.$
+.*\d{10}.*
+.*@.*
+\w+
+.*\s.*
+
+3. Match all 10 strings with those 5 regex
+
+4. Print the output in this format
+String: 1 matches regex: 1
+String: 2 matches regex: 1
+String: 3 matches regex: 1
+String: 7 matches regex: 2
+...

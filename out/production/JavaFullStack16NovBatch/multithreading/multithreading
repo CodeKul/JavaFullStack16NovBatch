@@ -110,6 +110,10 @@ Synchronisation
 		& another thread acquires the lock & continue to executed.
 		notify(),notifyAll(),wait()
 
+Deadlock:
+	it is a situation where one object is waiting to acquire lock, at the same time second object is waiting to acquire
+	 lock,considering first object is releases the lock. So both objects are in waiting state.
+
 Notes:
 1. thread can never be started again,after starting a thread, if we do this we will get
 	IllegalThreadStateException
