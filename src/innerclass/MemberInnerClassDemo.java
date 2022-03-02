@@ -8,6 +8,9 @@ public class MemberInnerClassDemo {
         Outer.Inner inner = o1.new Inner();
         inner.n1 = 40;
         inner.display();
+        ////OR
+        Outer.Inner inner1 = new Outer().new Inner();
+        inner1.display();
     }
 }
 

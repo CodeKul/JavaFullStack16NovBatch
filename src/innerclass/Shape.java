@@ -6,9 +6,10 @@ public abstract class Shape {
 
 class ShapeImpl{
     Shape shape = new Shape() {
+        int i = 10;
         @Override
         void getMsg() {
-            System.out.println("Hiii");
+            System.out.println("Hiii "+i);
         }
     };
 
