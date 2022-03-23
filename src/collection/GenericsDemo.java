@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * introduced in JDK 5.0
  * Parameterised type
  * it does not allow primitive data type
  * allow wrapper classes, user defined class
