@@ -12,10 +12,10 @@ package constructor;
 public class Person {
     private int id;
     private String name;
-    Person(){
+    public Person(){
         System.out.println("in constructor");
     }
-    Person(int id){
+    public Person(int id){
         this.id = id;
     }
     Person(int id,String name){
