@@ -16,6 +16,7 @@ public class GenericClass<T> {
 }
 
 class GenericImpl{
+
     public static void main(String[] args) {
         String s = "new";
         //GenericClass<String> genericClass = new GenericClass(s); //compile time error
