@@ -10,5 +10,8 @@ public class ListDemo1 {
         values.add(10);
         values.add(1,6);
         values.forEach(System.out::println);
+        System.out.println("size "+values.size());
+        System.out.println("isEmpty "+values.isEmpty());
+
     }
 }
