@@ -25,7 +25,6 @@ public class LinkedListDemo {
         while (stringIterator.hasNext()){
             System.out.println("fruit "+stringIterator.next());
         }
-
         fruits.sort(String::compareToIgnoreCase);
         System.out.println("Sort "+fruits);
     }
