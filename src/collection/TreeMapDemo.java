@@ -11,5 +11,10 @@ public class TreeMapDemo {
         treeMap.put(102,"Anup");
         treeMap.put(107,"Shubham");
         System.out.println(treeMap);
+
+        System.out.println("Reverse order: "+treeMap.descendingMap());
+        System.out.println("first Key: "+treeMap.firstKey());
+        System.out.println("size: "+treeMap.size());
+        System.out.println(treeMap.ceilingEntry(107));
     }
 }
